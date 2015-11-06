@@ -38,7 +38,7 @@ var server = app.listen(3000, function () {
     console.log('Example app listening at http://%s:%s', host, port);
 });
 
-var mongoose = require('mongoose');
+//var mongoose = require('mongoose');
 
 // init mongodb
 //mongoose.connect(`mongodb://mbdavid:${process.env.DBPWD}@staff.mongohq.com:10033/mbdavid`, {}, (err)=> {
