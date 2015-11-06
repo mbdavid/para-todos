@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html manifest="app.manifest">
   <head>
     <meta charset="utf-8">
     <title>Resultados da pesquisa</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link href="css/ratchet.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <script src="js/ratchet.js"></script>
@@ -14,7 +13,7 @@
 
     <!-- Make sure all your bars are the first things in your <body> -->
     <header class="bar bar-nav">
-      <a href="index.html" class="btn btn-link btn-nav pull-left">
+      <a href="index.html" class="btn btn-link btn-nav pull-left" data-ignore="push" >
         <span class="icon icon-left-nav"></span>
         Voltar
       </a>
